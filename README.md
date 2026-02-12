@@ -4,7 +4,7 @@ A simple "Hello, World!" program written in Go using only the standard library.
 
 ## Requirements
 
-- Go 1.16 or higher
+- Go 1.24.13 or higher
 
 ## Running the Program
 
