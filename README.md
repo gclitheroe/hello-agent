@@ -4,7 +4,7 @@ A simple web application that displays "Hello Atlassian from Github Copilot" in 
 
 ## Requirements
 
-- Go 1.16 or later
+- Go 1.24 or later
 
 ## Building
 
