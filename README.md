@@ -1,10 +1,10 @@
 # hello-agent
 
-A simple web application that displays "Hello Atlassian from Github Copilot" in large font.
+A simple web application that displays "Hello Atlassian from GitHub Copilot" in large font.
 
 ## Requirements
 
-- Go 1.16 or later
+- Go 1.24 or later
 
 ## Running the Application
 
@@ -23,7 +23,7 @@ A simple web application that displays "Hello Atlassian from Github Copilot" in 
    http://localhost:8080
    ```
 
-You should see "Hello Atlassian from Github Copilot" displayed in large font.
+You should see "Hello Atlassian from GitHub Copilot" displayed in large font.
 
 ## Development
 

@@ -8,7 +8,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", helloHandler)
-	
+
 	port := ":8080"
 	log.Printf("Starting server on http://localhost%s\n", port)
 	if err := http.ListenAndServe(port, nil); err != nil {
@@ -43,11 +43,11 @@ func helloHandler(w http.ResponseWriter, r *http.Request) {
 </head>
 <body>
     <div class="greeting">
-        Hello Atlassian from Github Copilot
+        Hello Atlassian from GitHub Copilot
     </div>
 </body>
 </html>`
-	
+
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	fmt.Fprint(w, html)
 }
