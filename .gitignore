@@ -16,3 +16,5 @@ go.work
 
 # Build output
 hello-agent
+# Go module cache
+root/
