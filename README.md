@@ -4,7 +4,7 @@ A simple Golang web application that displays "Hello Atlassian from Github Copil
 
 ## Requirements
 
-- Go 1.13 or higher
+- Go 1.24.13 or higher
 
 ## Running the Application
 
