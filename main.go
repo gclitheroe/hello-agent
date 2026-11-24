@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"io"
+	"os"
+)
 
 func main() {
-	fmt.Println("Hello World")
+	run(os.Stdout)
+}
+
+func run(w io.Writer) {
+	fmt.Fprintln(w, "Hello Team")
 }
